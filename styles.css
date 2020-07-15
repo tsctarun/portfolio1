@@ -1,0 +1,102 @@
+*{
+    margin:0;
+}
+#welcome-section{
+    height:700px;
+    background-color: rgb(37, 40, 43);
+    font-size: 35px;
+    color:rgb(219, 217, 217);
+}
+#tarun_pic{
+    width:350px;
+    height:400px;
+    border-radius:40%;
+    padding:2% 35%;
+}
+@media (max-width:400px){
+    #tarun_pic{
+        padding:2% 18%;
+        width: 250px;
+        margin:0;
+    }
+    #project{
+        padding:2% 15%;
+        justify-content: center;
+    }
+    iframe{
+        width: 100%;
+        padding:2%;
+        margin: 0;
+    }
+    #contact{
+        height:300px;
+        padding:3% 30%;
+        margin-bottom: 8%;
+    }
+}
+#welcome-text{
+    text-align: center;
+    padding: 3% 0;
+}
+#project{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(152, 105, 247);
+    padding:5%;
+}
+#project-head{
+    padding:1% 28% 4%;
+    font-size:35px;
+}
+#nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin:0;
+    background-color: rgb(22, 228, 211);
+    padding:1% 5%;
+}
+#nav-items{
+    padding:0 20px;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color:rgb(180, 8, 22);
+}
+#contact{
+    height:200px;
+    padding:3% 32%;
+    background-color: rgb(92, 170, 223);
+    font-size: 45px;
+    word-spacing: 5px;
+}
+#contact-link{
+    padding:7% 22% 2%;
+    font-size:22px;
+    word-spacing: 15px;
+    background-color: rgb(92, 170, 223);
+}
+#skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2%;
+}
+#skills-head{
+    padding:4% 28%;
+    font-size:35px;
+}
+#box{
+    border:2px dotted salmon;
+    padding:3em;
+    flex:2;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    padding:10px 0;
+    background-color: rgb(75, 81, 85);
+}
